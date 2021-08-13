@@ -1,4 +1,4 @@
-# Emanote Template
+# Steven Shaw
 
 A git repo for you to get started with [Emanote], with GitHub Pages deployment. See [[README|README]].
 

@@ -2,11 +2,11 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
-  siteName: emanote-template
+  siteTitle: Steven Shaw
+  siteName: emanote-example
 
 template:
-  theme: red
+  theme: blue
   sidebar:
     collapsed: false
   urlStrategy: pretty
