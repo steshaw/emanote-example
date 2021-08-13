@@ -4,7 +4,7 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    emanote-template – Steven Shaw
+    emanote-example – Steven Shaw
   </title>
   
     
@@ -19,7 +19,7 @@
 
   
   <!-- CSSSTART -->
-	<link rel="stylesheet" href="emanote-compiled-0bb916ec3178b4375dd93b159e9a6cee.css" />
+	<link rel="stylesheet" href="emanote-compiled-41113a207e45a87e951a96368232900f.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -154,8 +154,8 @@
       </svg>
       
   
-    <a class='font-bold text-blue-600 hover:underline truncate' title='emanote-template' href='README'>
-      emanote-template
+    <a class='font-bold text-blue-600 hover:underline truncate' title='emanote-example' href='README'>
+      emanote-example
     </a>
     
       
@@ -178,39 +178,43 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-blue-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    emanote-template
+    emanote-example
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
     <p class='mb-3'>
-      Notebook template for <a href='https://github.com/srid/emanote' class='text-blue-600 hover:underline' target='_blank' rel='noopener'>https://github.com/srid/emanote</a> - to easily get started with publishing GitHub Pages website using Emanote out of plain-text notes.
+      An example GitHub Pages website built with <a href='https://github.com/srid/emanote' class='text-blue-600 hover:underline' target='_blank' rel='noopener'>https://github.com/srid/emanote</a>.
     </p>
-  <h2 id='using-this-template' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Using this template</h2>
-    <p class='mb-3'>
-      CLick the “Use this template” green button on Github, and in the resulting repository make the following modifications,
-    </p>
-  
+  <h2 id='using-emanote-template' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Using emanote-template</h2>
     <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
       
         <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.yaml</code> to use your site’s title (and set the same in <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.md</code>)
+          
+    <!-- FIXME: Fix list styling to use flexbox, so task lists don't botch them up -->
+    <label class='inline-flex items-start space-x-2'>
+      <input checked type='checkbox' class='flex-shrink-0 w-5 h-5 checked:bg-blue-600 checked:border-transparent' />
+      <span>
+        Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.yaml</code> to use your site’s title (and set the same in <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.md</code>)
+      </span>
+    </label>
+  
         </li>
       
         <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github/index.yaml</code> to change the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>baseUrl</code> (if your repository is named differently or you are using a CNAME). If you are using CNAME (with no sub-path), then you may get rid of the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github</code> layer entirely (be sure to update <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>publish.yaml</code> accordingly).
-        </li>
-      
-        <li>
-          Delete <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>README.md</code> (this file)
+          
+    <!-- FIXME: Fix list styling to use flexbox, so task lists don't botch them up -->
+    <label class='inline-flex items-start space-x-2'>
+      <input checked type='checkbox' class='flex-shrink-0 w-5 h-5 checked:bg-blue-600 checked:border-transparent' />
+      <span>
+        Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github/index.yaml</code> to change the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>baseUrl</code> (if your repository is named differently or you are using a CNAME). If you are using CNAME (with no sub-path), then you may get rid of the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github</code> layer entirely (be sure to update <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>publish.yaml</code> accordingly).
+      </span>
+    </label>
+  
         </li>
       
     </ul>
-  
-    <p class='mb-3'>
-      Checkout <a href='https://note.ema.srid.ca/examples' class='text-blue-600 hover:underline' target='_blank' rel='noopener'>examples</a> and <a href='https://note.ema.srid.ca/demo' class='text-blue-600 hover:underline' target='_blank' rel='noopener'>demo</a> for next steps.
-    </p>
   
 </article>
             
